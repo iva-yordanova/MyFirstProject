@@ -12,5 +12,6 @@ public class Area {
         double area = (height * base) / 2;
 
         System.out.println("The area of a triangle is" + " " + area);
+        System.out.println("The area of a triangle is" + " " + area);
     }
 }
