@@ -15,24 +15,25 @@ public class Vacation {
         Double budget = mybudget.nextDouble();
         System.out.println("My budget is " + budget);
 
-        if(Objects.equals(vacationPlace, "Beach") || Objects.equals(vacationPlace, "Mountain")) {
+        if (Objects.equals(vacationPlace, "Beach") || Objects.equals(vacationPlace, "Mountain")) {
             if (Objects.equals(vacationPlace, "Beach")) {
-                if (budget <= 50) {
+                if (budget < 50) {
                     System.out.println("You should choose Bulgaria as a destination");
                 } else {
                     System.out.println("You should choose a place outside Bulgaria as a destination");
                 }
             }
             if (Objects.equals(vacationPlace, "Mountain")) {
-                if (budget <= 30) {
+                if (budget < 30) {
                     System.out.println("You should choose Bulgaria as a destination");
                 } else {
                     System.out.println("You should choose a place outside Bulgaria as a destination");
                 }
             }
-        }else {
+        } else {
             System.out.println("There is no information about this type of vacation.");
         }
     }
 }
+
 
