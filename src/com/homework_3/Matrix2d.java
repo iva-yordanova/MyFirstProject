@@ -16,12 +16,11 @@ public class Matrix2d {
         arr[3][1] = 11;
         arr[3][2] = 12;
 
-       for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
-
     }
 }
