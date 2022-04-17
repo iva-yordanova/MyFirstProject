@@ -5,7 +5,14 @@ public class SumOfArrayElements {
         int[] arr = {200,434,777,666};
         int sum = 0;
 
-        for (int i = 0; i < arr.length; i++) {
+//foreach loop
+        /*for (int i:arr) {
+            sum += i;
+        }
+        System.out.println(sum);*/
+
+//normal loop
+      for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
         System.out.println(sum);
