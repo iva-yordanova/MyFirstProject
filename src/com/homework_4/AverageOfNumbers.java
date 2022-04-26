@@ -3,7 +3,7 @@ package com.homework_4;
 import java.util.Scanner;
 
 public class AverageOfNumbers {
-    public static double averageOfNumbers(int[] numbers) {
+    public static double calculateAverage(int[] numbers) {
         double sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             sum = sum + numbers[i];
@@ -25,7 +25,7 @@ public class AverageOfNumbers {
                 ArrayNumbers[i] = myScanner.nextInt();
             }
 
-            System.out.println(averageOfNumbers(ArrayNumbers));
+            System.out.println(calculateAverage(ArrayNumbers));
         }
     }
 }
